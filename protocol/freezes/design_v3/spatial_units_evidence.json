@@ -1,0 +1,9 @@
+{
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10546353/",
+  "doi": "10.1148/ryai.230024",
+  "exact_statement": "All images were resampled to 1.5-mm isotropic resolution.",
+  "full_context": [
+    "Training dataset.\u2014 To generate a comprehensive and highly variant dataset, 1368 CT examinations were randomly sampled from 2012, 2016, and 2020 from the University Hospital Basel picture archiving and communication system. CT series of upper and lower extremities ( n = 37), CT series with missing slices ( n = 87), and CT series for which the human annotator could not segment certain structures because of high ambiguity (eg, structures highly distorted as a result of abnormality) ( n = 40) were excluded. The CT series were sampled randomly from each examination to obtain a wide variety of data. All images were resampled to 1.5-mm isotropic resolution. The final dataset of 1204 CT series was divided into a training dataset of 1082 patients (90%), a validation dataset of 57 patients (5%), and a test dataset of 65 patients (5%) ( Fig 1A )."
+  ],
+  "scope": "Published v1 cohort. This acquisition restricts IDs to that cohort, uses v3 revised masks. Original NIfTI units may be unknown; only derived input may be explicitly assigned millimetres using this source. Actual affine/pixdim must still be checked per case."
+}

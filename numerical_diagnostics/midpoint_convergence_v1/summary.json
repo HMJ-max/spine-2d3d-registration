@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "n_volumes": 10,
+  "composite_images": 160,
+  "source_image_components": 800,
+  "cap_ever_active": false,
+  "clinical_pass_fail_claim": false,
+  "comparisons": {
+    "(1.0, 0.5)": {
+      "max_relative_L2": 0.007344838761761499,
+      "max_original_ncc_loss": 2.9017495762673207e-05
+    },
+    "(0.5, 0.25)": {
+      "max_relative_L2": 0.001057249862068727,
+      "max_original_ncc_loss": 6.043734970262449e-07
+    },
+    "(0.25, 0.125)": {
+      "max_relative_L2": 0.0002910582487696864,
+      "max_original_ncc_loss": 4.535058906185441e-08
+    },
+    "(1.0, 0.125)": {
+      "max_relative_L2": 0.007321438555827659,
+      "max_original_ncc_loss": 2.883137494791299e-05
+    }
+  },
+  "total_runtime_seconds": 47.4659999999858,
+  "config_hash": "fb79d64d5c9c3f16f7cf491f4bfb0a7f88623faa6480b30401b3a5b81303c8da"
+}

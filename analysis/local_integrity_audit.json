@@ -1,0 +1,20 @@
+{
+  "legacy": {
+    "status": "PASS",
+    "source_files": 35,
+    "verified_targets": 282,
+    "matched_final_outputs": 1128,
+    "original_audit_sha256": "614d78c1d4bc1c6b8f4a2b4885e9a7573d0d0df0bc4fb8cec5564ec35d49a775",
+    "downloaded_source_and_target_bytes_rechecked": true,
+    "matched_starts_rechecked": true
+  },
+  "external": {
+    "status": "PASS",
+    "source_files": 35,
+    "verified_targets": 270,
+    "matched_final_outputs": 1080,
+    "original_audit_sha256": "954382ec39eeb545f9f72d1a50b7c28f07d978fa107f3246e0f5830e8a0a2bff",
+    "downloaded_source_and_target_bytes_rechecked": true,
+    "matched_starts_rechecked": true
+  }
+}

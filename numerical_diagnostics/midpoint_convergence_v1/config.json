@@ -1,0 +1,67 @@
+{
+  "scope": "Midpoint quadrature only, fixed saved GT and prescribed perturbation; no optimization",
+  "selection_sha256": "1d654132693c00fc152383f65e454d57f53abb98557a02261ea1a799e0f6633a",
+  "protocol_sha256": "06ac515bba38e1d15adbf82f232dbdaa16b87f1a95b8daa7e0a72eb30c4150fc",
+  "design": {
+    "scope": "Old-development numerical ray-step diagnostic only; no registration or endpoint-based tuning",
+    "case_selection_file": "convergence_selection.json",
+    "detector_resolution": 256,
+    "views": [
+      "AP",
+      "LAT"
+    ],
+    "requested_steps_mm": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "poses": [
+      "saved_ground_truth",
+      "saved_ground_truth_plus_predeclared_local_parameter_offset"
+    ],
+    "perturbation": {
+      "local_rotvec_x_add_deg": 1.0,
+      "local_tx_add_mm": 1.0,
+      "applies_to": "each of the five vertebrae; all other local rotation-vector/translation coordinates unchanged",
+      "definition": "add to original local parameter coordinates, not a composition with a global rigid transform"
+    },
+    "sample_cap_policy": "Choose a cap at least ceil(component physical diagonal / smallest requested h) for every tested component and assert no cap activation; record actual cap, N, diagonal and ray interval statistics",
+    "comparison": "full-image neighboring-step relative L2 and original NCC loss, separately by case/view/pose; preserve intensity scale, detector, interpolation and integration bounds",
+    "production_reference": "Also record whether uncapped h=1 N equals original h=1/cap192 production N for each component; any disagreement is a limitation, not silently treated as the production renderer",
+    "outcome_use": "No new-cohort/evaluation registration results may select step, perturbation or acceptance criteria",
+    "review_policy": "Describe numerical differences across all four h values. No retrospective success threshold or automatic optimizer change; any setting change requires a prospective protocol amendment using only old-development numerical evidence.",
+    "amendment": "AMENDMENT_002_MIDPOINT.md"
+  },
+  "cases": [
+    "lumbar_0074",
+    "lumbar_0057",
+    "lumbar_0026",
+    "lumbar_0068",
+    "lumbar_0061",
+    "lumbar_0069",
+    "lumbar_0005",
+    "lumbar_0094",
+    "lumbar_0017",
+    "lumbar_0042"
+  ],
+  "chunk_rows": 32,
+  "source_hashes": {
+    "runner\\run_midpoint_convergence.py": "31a802c41f5156c17cfbfece75e3af116a4e8e7e121894c22b7bf2f817391f66",
+    "runner\\run_siddon_validation.py": "c9f17d765e4db03ea3fe2f73517fe8cb381491c6aed07f1beebe2fea34a65516",
+    "repo\\code\\src\\spine_registration\\torch_registration.py": "81fe9d08f758d9d098dad02c4e4d1afd1078b6dd96804b449d8e533a0299a21b",
+    "repo\\code\\src\\spine_registration\\drr.py": "2a0e657f70ddb5140d0efbb078ada0b5178ad0bb4aa6dd845ae891aaf54e58c5"
+  },
+  "environment": {
+    "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cma": "4.5.0",
+    "nibabel": "5.4.2",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "memory_bytes": 8585216000
+  }
+}

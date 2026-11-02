@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "purpose": "Numerical rendering diagnostics on old development anatomy only; no selection using registration performance",
+  "selection_salt": "ijcars-independent-validation-20261026-convergence-v1",
+  "source_split_sha256": "d4b2213e842d0f8fb7c7a402e4ed63cae9b23df80c4f94d99a96d79d20cf38d7",
+  "source_split": "work/reviewer_statistics_data/split.json",
+  "selection": [
+    {
+      "development_fold": 1,
+      "selection_rule": "first two by SHA256(salt + colon + case_id), independent of outcome",
+      "ordered_all_ids": [
+        "lumbar_0074",
+        "lumbar_0057",
+        "lumbar_0002",
+        "lumbar_0087",
+        "lumbar_0034"
+      ],
+      "selected_ids": [
+        "lumbar_0074",
+        "lumbar_0057"
+      ],
+      "hashes": {
+        "lumbar_0074": "7cd55768ffc5c4eecab9d49671703619f68acee7c8ae7ae91d7f3f402329b4ec",
+        "lumbar_0057": "8609bb9a518ef5d278e8554010b350b51ab5569c040bf940676b7a3d79bed1aa",
+        "lumbar_0002": "963a26c8497ed9a02ba990f337dcb52c99b698bac3258c11507ff769169abca7",
+        "lumbar_0087": "a71d9306c0474846b3b585b0f065cc625d361e23845cb611e46904f860cd066e",
+        "lumbar_0034": "d9c1416bd2bbd82ddce6153673e16fa956447e8a000edb5a51ff26fded038580"
+      }
+    },
+    {
+      "development_fold": 2,
+      "selection_rule": "first two by SHA256(salt + colon + case_id), independent of outcome",
+      "ordered_all_ids": [
+        "lumbar_0026",
+        "lumbar_0068",
+        "lumbar_0027",
+        "lumbar_0030",
+        "lumbar_0066"
+      ],
+      "selected_ids": [
+        "lumbar_0026",
+        "lumbar_0068"
+      ],
+      "hashes": {
+        "lumbar_0026": "100b2a7e956f1773f7f702260dedd58165c9d65069c23f59261faf40839c8d5d",
+        "lumbar_0068": "726b129e710802619631deb95045c9a032618f436c4b78d3d2ba918fbe48cf8f",
+        "lumbar_0027": "7db8c067f1cff262ac8d3bf145170db54888086cef1cef6e8b4b71c0017ca960",
+        "lumbar_0030": "ca0fd1afb0f6e8cdd2f6fcd18613fb635cd43058a423b043d957134c9e0eaf7b",
+        "lumbar_0066": "ffe12d3a4ade60dab6486d2d4dba0f7a4deafc42a672e25f23560cbb3a55e04e"
+      }
+    },
+    {
+      "development_fold": 3,
+      "selection_rule": "first two by SHA256(salt + colon + case_id), independent of outcome",
+      "ordered_all_ids": [
+        "lumbar_0061",
+        "lumbar_0069",
+        "lumbar_0092",
+        "lumbar_0082",
+        "lumbar_0003"
+      ],
+      "selected_ids": [
+        "lumbar_0061",
+        "lumbar_0069"
+      ],
+      "hashes": {
+        "lumbar_0061": "925c02a1d7cb267089cfb87a8d803f9cde043a452ba0c4250a510cedbfb0fefb",
+        "lumbar_0069": "b124f440584536e1d37d0684ae0da705fe2af86e53575b435adbbebd762c4487",
+        "lumbar_0092": "c7de0c98c849fb7b54c6b9888d96f872b6c3f302f5d99e5bbcfe037d5cf4ded1",
+        "lumbar_0082": "e6267d243b30bed37c853adec31980f006c840feb6051bae07e267c28d87f887",
+        "lumbar_0003": "e94c3552cc0cbe1d74951125c5b0d6db9f0217d79454110602a9697629954a71"
+      }
+    },
+    {
+      "development_fold": 4,
+      "selection_rule": "first two by SHA256(salt + colon + case_id), independent of outcome",
+      "ordered_all_ids": [
+        "lumbar_0005",
+        "lumbar_0094",
+        "lumbar_0091",
+        "lumbar_0038",
+        "lumbar_0028"
+      ],
+      "selected_ids": [
+        "lumbar_0005",
+        "lumbar_0094"
+      ],
+      "hashes": {
+        "lumbar_0005": "4e2afefbeb252d9216cd2c04f787183a1688f969527f5ac84f43cb65d6ff9b1e",
+        "lumbar_0094": "72a6c86ed17850746fda9636e734d94df039cbcdd8c8b7ee79e837df4402a663",
+        "lumbar_0091": "82fae5b23de589929b31e1fe238736043eb62d7dc49553fbedd5b65389206248",
+        "lumbar_0038": "8bc727d0bbc7c73a8941eb0c7bd0c24e48901b79d055881aa8353369559f61e2",
+        "lumbar_0028": "ad542581aaff3cf44e84c10e149064850581b8c6fc2c6541aae3330be1bf47ce"
+      }
+    },
+    {
+      "development_fold": 5,
+      "selection_rule": "first two by SHA256(salt + colon + case_id), independent of outcome",
+      "ordered_all_ids": [
+        "lumbar_0017",
+        "lumbar_0042",
+        "lumbar_0019",
+        "lumbar_0088",
+        "lumbar_0065"
+      ],
+      "selected_ids": [
+        "lumbar_0017",
+        "lumbar_0042"
+      ],
+      "hashes": {
+        "lumbar_0017": "097cdf495f20e0edd6a7b7ec18aeb38c08892cce61b5857dad2b7ef316e11283",
+        "lumbar_0042": "1cb72feb40a641f0db50ebcbe843ee2bc9f937a8d7e6e09ec8c134699e14be69",
+        "lumbar_0019": "c6ffe21470a38db8332edbb99bc6e49325143c66f054b0e21d9858cf319084a5",
+        "lumbar_0088": "df875c2c6c579cb040dd573870b886aaea22cb24aac12c661bc0097ccbdf8106",
+        "lumbar_0065": "e6491cecb5d6fb08ec91e0aded73a230c3aac7ce9bcb8c75f7b8093ed15d8217"
+      }
+    }
+  ],
+  "selected_ids": [
+    "lumbar_0074",
+    "lumbar_0057",
+    "lumbar_0026",
+    "lumbar_0068",
+    "lumbar_0061",
+    "lumbar_0069",
+    "lumbar_0005",
+    "lumbar_0094",
+    "lumbar_0017",
+    "lumbar_0042"
+  ],
+  "fallback": "No outcome-dependent replacement. Missing/corrupt sources must be logged; a replacement requires an amendment before running convergence on replacement cases.",
+  "evaluation_ids_included": false
+}

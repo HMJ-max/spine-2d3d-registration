@@ -1,0 +1,153 @@
+{
+  "review_time_utc": "2026-10-26T12:49:58.993197+00:00",
+  "review_type": "read-only static source and configuration review; no import/execution of GPU or outcome files",
+  "status": "PASS_CORE_METHODS_WITH_PROVENANCE_FOLLOWUPS",
+  "runner_sha256": "c9f17d765e4db03ea3fe2f73517fe8cb381491c6aed07f1beebe2fea34a65516",
+  "unchanged_source_files": 28,
+  "changed_files": [
+    {
+      "file": "scripts/adaptive_study.py",
+      "old_sha256": "2ca0d14b37b343b84fcd825a995eaef128e7984f93272480ff1520bcc01aa98f",
+      "new_sha256": "0664522b79aedde0cdf5c5db0816c2cbf6d83ba4b7271d630f8ff87e9f87a009",
+      "changed_top_level_definitions": []
+    },
+    {
+      "file": "scripts/generate_posture_dataset.py",
+      "old_sha256": "e5c59934c41c9a38a22c58142fdeffa36e1aabc80d05c83915b51e06b3928291",
+      "new_sha256": "0da2c9b2781aaf9c0485e289792cab238d95b621e841755fff46c6548cb93244",
+      "changed_top_level_definitions": []
+    },
+    {
+      "file": "scripts/run_final_study.py",
+      "old_sha256": "570db6accd3d68c87ff3101239dfb66741eb44d3a00f1c0700af0d3ee97877dd",
+      "new_sha256": "9458f7f0ee1834f56a58373fb9e3e96ef4326616284a95c9afebb1cf2126ba1a",
+      "changed_top_level_definitions": []
+    },
+    {
+      "file": "src/spine_registration/benchmark.py",
+      "old_sha256": "1900ef1623c546820fd916dfe778a399ecdafa5abd677819df5e438c92430525",
+      "new_sha256": "d990bba7df7a6e106c4409e16dfa238b5858cea4de9def6915d910e0764ec7ae",
+      "changed_top_level_definitions": [
+        "load_case"
+      ]
+    }
+  ],
+  "core_function_checks": [
+    {
+      "file": "scripts/adaptive_study.py",
+      "definition": "relative_frames",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/adaptive_study.py",
+      "definition": "edge_penalties",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/adaptive_study.py",
+      "definition": "dispersion",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/adaptive_study.py",
+      "definition": "perturb",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/adaptive_study.py",
+      "definition": "refine",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/adaptive_study.py",
+      "definition": "record",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/run_final_study.py",
+      "definition": "motion_for",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/run_final_study.py",
+      "definition": "optimize_A",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/batched_global_search.py",
+      "definition": "coarse_cma",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/batched_global_search.py",
+      "definition": "batch_objective",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/final_study_support.py",
+      "definition": "degrade",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/final_study_support.py",
+      "definition": "extra_metrics",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "scripts/adaptive_siddon.py",
+      "definition": "render",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/benchmark.py",
+      "definition": "ImageProblem",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/benchmark.py",
+      "definition": "evaluate",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/benchmark.py",
+      "definition": "global_to_local",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/benchmark.py",
+      "definition": "projections",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/benchmark_optimizers.py",
+      "definition": "optimize_torch",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/torch_registration.py",
+      "definition": "ncc_loss_torch",
+      "status": "IDENTICAL_AST"
+    },
+    {
+      "file": "src/spine_registration/torch_registration.py",
+      "definition": "TorchConeBeamRenderer",
+      "status": "IDENTICAL_AST"
+    }
+  ],
+  "adaptive_values": {
+    "lambda_max": 0.01,
+    "tau": 0.01389625625827594
+  },
+  "primary_sources": {
+    "old_code": "PROJECT\\work\\repro_pkg\\retained_source_bundle\\code",
+    "new_code": "PROJECT\\work\\validation_20261026\\repo\\code"
+  },
+  "scope": "Legacy-cohort pilot runner only; external cohort path not yet implemented/audited",
+  "followups": [
+    "Save masks as arrays or make reconstruction from bounds explicit, with plan hash and persisted per-view RNG-state hashes.",
+    "Legacy corruption-support cache needs a source/config/array checksum sidecar checked on reuse; current cache path existence alone does not validate its contents.",
+    "Full production invocation must freeze the complete cohort manifest, six scenarios and protocol hash; a pilot command defaults to only clean and combined_s0.",
+    "External implementation must use new base seeds 20361024/20361025 and final assigned case indices0..49, with no geometry-based renumbering."
+  ],
+  "interpretation": "Target uses new independent Siddon512-to256 images, and all final comparators use a new common A/candidate bank. Shared trilinear references define corruption masks/scales/RNG, by root decision, and must be disclosed."
+}

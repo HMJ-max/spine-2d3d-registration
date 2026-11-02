@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "config_hash": "3e2cf214d06708b8eba4dbb9c08234b263d1d08dde74142f272045e5481480ec",
+  "n_volumes": 10,
+  "n_view_comparisons": 20,
+  "maximum_relative_L2": 0.06017407007919519,
+  "maximum_original_ncc_loss": 0.0019208930898457766,
+  "review_flag_count": 20,
+  "clinical_pass_fail_claim": false,
+  "rendering_runtime_seconds": 711.8130000000092
+}

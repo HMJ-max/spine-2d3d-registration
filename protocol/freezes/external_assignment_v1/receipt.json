@@ -1,0 +1,11 @@
+{
+  "freeze_id": "external_assignment_v1",
+  "frozen_utc": "2026-10-27T02:07:40.912530+00:00",
+  "layer": "final_source_input_assignment",
+  "assigned_count": 50,
+  "assigned_manifest_sha256": "551474cedafe8a72e9e7a17e52e0254cd2d3a5424f51a7172797416ae4226f37",
+  "full_audit_sha256": "8cdeaed8020f006d096cb628006bf8dc09122cc78c389adc3356816f8d3a9b09",
+  "finalizer_sha256": "be7d25e9f85a46e077537d54b7fd71fcbb94e172fbf4f82cf9e6492bbe9a0e49",
+  "registration_or_motion_results_used": false,
+  "remaining_lock": "Exact production runner/config and generated motion/targets; this assignment cannot be changed based on their outcomes."
+}

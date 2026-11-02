@@ -1,0 +1,31 @@
+{
+  "freeze_id": "20261026-design-v3",
+  "frozen_utc": "2026-10-27T02:05:54.786651+00:00",
+  "layer": "design_and_source_selection",
+  "status": "FROZEN_DESIGN_PENDING_FINAL_INPUT_AND_EXECUTION_LOCKS",
+  "decision_authority": "Root approved design choices and technical review flags in the current authorized experiment task",
+  "new_outcomes_used_to_select_design": false,
+  "outcome_files_read_by_this_script": false,
+  "sha256": {
+    "PROTOCOL.md": "dd299b0d39707b7f0ad5973ce73ccd1f003732d51acf9e1e3fb6b875783179a9",
+    "analysis_protocol.json": "06ac515bba38e1d15adbf82f232dbdaa16b87f1a95b8daa7e0a72eb30c4150fc",
+    "convergence_selection.json": "1d654132693c00fc152383f65e454d57f53abb98557a02261ea1a799e0f6633a",
+    "build_protocol_manifest.py": "4cb84a679dfd1d93ea92391579258d7a3c4fe6dff01baa4c473188f980677ab6",
+    "AMENDMENT_001_SOURCE_ORDER.md": "75c597545d14bd93b2a8f6f38680462b8b2c8ee0ab5837f533c379d90bf2cd8e",
+    "AMENDMENT_002_MIDPOINT.md": "36e1d10fc861322460b2972dbcf030c37e8c7ac7eee14a440f447d2045c1bd27"
+  },
+  "remaining_locks": [
+    "final patient/source linkage and overlap audit",
+    "final assigned list and explicit case_index mapping",
+    "new external preprocessing/runner independent code review",
+    "production runner/config and input-source checksums",
+    "old-development convergence diagnostic and any prospective target-sampling amendment"
+  ],
+  "independence_claim": "not asserted until source/linkage/overlap evidence supports it",
+  "note": "This receipt freezes planned interpretation, estimands, intervals, seeds, target/corruption policy, candidate selection and ten old-development convergence cases. It does not certify completed experiments or human manuscript approval.",
+  "source_selection_sha256": {
+    "frozen_candidate_order.json": "c221c08dc9bcc8ccbe74d6de3cfc3604a124a8c41089976b85ca8516bb5d6e8f",
+    "spatial_units_evidence.json": "f8ffcc2e362eb445e36ba1881cebc97a8cbb6f725611692fe77f829180be14b2",
+    "patient_linkage_evidence.json": "f53c9ffcf4dacf35c978bd026f09235f310fee9b8a0384d997cdf1640a87f533"
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "case": "lumbar_0005",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.034431733063660194,
+    "original_ncc_loss": 0.0006287168944254518,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0005",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.03136249442723053,
+    "original_ncc_loss": 0.0005158386193215847,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0017",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.03018119345863828,
+    "original_ncc_loss": 0.0004845488292630762,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0017",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.033682757260979995,
+    "original_ncc_loss": 0.0006037577404640615,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0026",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.05284536575630511,
+    "original_ncc_loss": 0.0014683313202112913,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0026",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.057984568620379866,
+    "original_ncc_loss": 0.0018061533337458968,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0042",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.05977466072660695,
+    "original_ncc_loss": 0.0018869906198233366,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0042",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.04737269604092786,
+    "original_ncc_loss": 0.0011704545468091965,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0057",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.04167433058351203,
+    "original_ncc_loss": 0.0009143425850197673,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0057",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.06017407007919519,
+    "original_ncc_loss": 0.0019208930898457766,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0061",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.05024969393336791,
+    "original_ncc_loss": 0.0013426457298919559,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0061",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.043996823746428715,
+    "original_ncc_loss": 0.0010173612972721457,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0068",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.04840973540248742,
+    "original_ncc_loss": 0.00126848672516644,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0068",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.04456053941149736,
+    "original_ncc_loss": 0.0010692114010453224,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0069",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.04367333359221275,
+    "original_ncc_loss": 0.0010232136119157076,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0069",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.0597147490227412,
+    "original_ncc_loss": 0.0018807121086865664,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0074",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.043212571834180064,
+    "original_ncc_loss": 0.0009787424933165312,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0074",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.04695832443329887,
+    "original_ncc_loss": 0.0011550948256626725,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0094",
+    "view": "AP",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.034455627769249576,
+    "original_ncc_loss": 0.000632760813459754,
+    "engineering_review_flag": true
+  },
+  {
+    "case": "lumbar_0094",
+    "view": "LAT",
+    "coarse": 512,
+    "fine": 1024,
+    "relative_L2": 0.028921059254867924,
+    "original_ncc_loss": 0.00044909282587468624,
+    "engineering_review_flag": true
+  }
+]

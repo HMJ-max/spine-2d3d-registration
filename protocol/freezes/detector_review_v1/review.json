@@ -1,0 +1,54 @@
+{
+  "status": "REVIEWED_CONTINUE_FIXED_FINITE_TARGET",
+  "reviewed_Asia_Shanghai": "2026-10-27T11:24:12.785080+08:00",
+  "receipt_sha256": "e9f944406d947fa5d82979980d538045492f724362716fdb68754f2f9c8434c2",
+  "diagnostic_file_sha256": {
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\config.json": "ba97495d3710287f7ba1a937791a00fe992a800a76d6a77b80a50011adcadcba",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0005.json": "03992f7f352e36b3bdb9c4de09afbf3c6ef69cf011f51a5c12f933bd916044fd",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0005.npz": "1a9ba587f67ce58f335a8cc584b19f4830c53b29f649a62c53e36af9f2a05e64",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0017.json": "d98cae79f4f27cbbcad33ff282aea70c4d9c60a5c78b7aa9e4f0ea46a56e7280",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0017.npz": "829e1a03463936b1a9cd70600786dc8d67abdf10945efa6537c176612dc513ae",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0026.json": "dfa320d099d7b8c75fea399c73be5b552785ec2c404431de8c50aa7e26f3f835",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0026.npz": "1a5aa86a2bf30e6a71646170421a2b2af86d0a5edd31e54be12494eef3d47224",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0042.json": "dd5866e38c2f0774ebc08b04141271241df3594c31645f04b4d9f16d53803299",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0042.npz": "46ffbbc4191e3ce699fcf05258f7104684b319202f0d35c35d2d24f09bc61ec5",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0057.json": "da2bc35fa143f0690dde28daac705961bca5e9c31273945dd26a96c64b8fe81b",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0057.npz": "84112677e9ddbfd48db542ad0559ffd64caac5c7f285c13fcb1a7b4919fb6fb1",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0061.json": "060d4096ab33278e970a7ce8c77cfd4de9499b1441cb5e3ddd441c9197a49fb5",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0061.npz": "fdc4c9fe06aed2e86219cef9214020787a317fc2cd101e4494a52528ad60127e",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0068.json": "b06bba4a831da37d5f11a1cbbd6ddfa9e8b05e552347c23cef2ef82fb666647b",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0068.npz": "a2208a9f5f29cf7221ac6e54b6c840190ccd69d11dc95e4dd0f737b90ad1c83f",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0069.json": "e1e1ffcb05d5f92adf610ecf204cf0c0fa5ed13a8e5f9dceea6c6f03a1f1b71f",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0069.npz": "fc51555f5db0e44d1cd71a8bdc7e9e2179a5aeb38ba4012f0f286b3fabe81168",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0074.json": "c263ff8abf235197998a1a42464ea64eefb800afae17e368622be09747bec0aa",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0074.npz": "52494728c3c9e34ca2832a438b71f25e4e8d2fc9347e5a15240c1dac6288f174",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0094.json": "a03d414f186e91bed8fd7ac233dd3a33883dc4eda9461ef7f1b6b4db3babce81",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\lumbar_0094.npz": "95c9c25060c022d864a49b1b278bca9b57e23804cba89da53a04d13ad029df6d",
+    "PROJECT\\work\\validation_20261026\\repo\\outputs\\detector_convergence_v1\\summary.json": "e9f944406d947fa5d82979980d538045492f724362716fdb68754f2f9c8434c2"
+  },
+  "summary": {
+    "status": "COMPLETE",
+    "config_hash": "3e2cf214d06708b8eba4dbb9c08234b263d1d08dde74142f272045e5481480ec",
+    "n_volumes": 10,
+    "n_view_comparisons": 20,
+    "maximum_relative_L2": 0.06017407007919519,
+    "maximum_original_ncc_loss": 0.0019208930898457766,
+    "review_flag_count": 20,
+    "clinical_pass_fail_claim": false,
+    "rendering_runtime_seconds": 711.8130000000092
+  },
+  "decision": "Retain the predeclared finite 512-to256 target model in both cohorts; do not claim detector convergence.",
+  "rationale": [
+    "Engineering flags require review, not an automatic clinical or study-validity pass/fail decision (frozen PROTOCOL section 8).",
+    "All 20 views have smaller 512-vs1024 than 256-vs512 differences. Analytic line-integral, pixel-centre/FOV and area-average checks passed.",
+    "Residual detector-sampling sensitivity is material: relative L2 range 0.0289211 to 0.0601741; maximum 1-NCC 0.001920893. These values do not meet the frozen review thresholds.",
+    "The independent Siddon512 finite sampling model remains different from the optimization renderer. Its comparison is interpretable conditional on that finite target model; image similarity is not proof of registration-ranking robustness.",
+    "No new evaluation outcomes have been generated or examined. No method parameter, target resolution, seed, cohort, threshold or estimand is changed."
+  ],
+  "limitations_required_in_final_report": [
+    "Report all 10-case/20-view diagnostics including threshold exceedances; do not describe detector convergence as passed.",
+    "Do not claim an area-integral ground truth, sampling-independent accuracy or method rankings robust to denser detector sampling.",
+    "Independent-renderer validation addresses one shared-renderer assumption, not all inverse-crime/shared-physics risks."
+  ],
+  "requires_new_sampling_sensitivity_before_any_sampling_robustness_claim": true
+}

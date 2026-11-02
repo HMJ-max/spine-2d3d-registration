@@ -1,0 +1,49 @@
+{
+  "scope": "Siddon detector supersampling at saved GT only; not midpoint quadrature or registration convergence",
+  "selection_sha256": "1d654132693c00fc152383f65e454d57f53abb98557a02261ea1a799e0f6633a",
+  "protocol_sha256": "06ac515bba38e1d15adbf82f232dbdaa16b87f1a95b8daa7e0a72eb30c4150fc",
+  "cases": [
+    "lumbar_0074",
+    "lumbar_0057",
+    "lumbar_0026",
+    "lumbar_0068",
+    "lumbar_0061",
+    "lumbar_0069",
+    "lumbar_0005",
+    "lumbar_0094",
+    "lumbar_0017",
+    "lumbar_0042"
+  ],
+  "resolutions": [
+    256,
+    512,
+    1024
+  ],
+  "chunk_rays": 256,
+  "flags": {
+    "relative_l2_max_over_10cases_2views": 0.005,
+    "original_ncc_loss_max_over_10cases_2views": 0.0001,
+    "comparison": "Siddon512-to256 vs Siddon1024-to256 at saved old-development GT",
+    "scope": "engineering review flags only, neither clinical thresholds nor validation pass/fail",
+    "trigger_action": "inspect geometry/precision/aliasing; any denser production target setting requires a new design version based solely on old-development numerical evidence, without looking at evaluation method ranking"
+  },
+  "source_sha256": {
+    "runner\\run_convergence.py": "39c591a27aab6196479c014a55acff9756ced7b734b631528184e9ac046b0db9",
+    "runner\\run_siddon_validation.py": "c9f17d765e4db03ea3fe2f73517fe8cb381491c6aed07f1beebe2fea34a65516",
+    "repo\\code\\scripts\\adaptive_siddon.py": "93522d485f0265e16a5d3969c10961e6cbc1fb875cfe06c1c66a121a49491315",
+    "repo\\code\\src\\spine_registration\\benchmark.py": "d990bba7df7a6e106c4409e16dfa238b5858cea4de9def6915d910e0764ec7ae",
+    "repo\\code\\src\\spine_registration\\torch_registration.py": "81fe9d08f758d9d098dad02c4e4d1afd1078b6dd96804b449d8e533a0299a21b"
+  },
+  "environment": {
+    "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cma": "4.5.0",
+    "nibabel": "5.4.2",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "memory_bytes": 8585216000
+  }
+}

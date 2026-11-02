@@ -1,0 +1,24 @@
+{
+  "freeze_id": "20261026-design-v1",
+  "frozen_utc": "2026-10-26T12:51:23.463011+00:00",
+  "layer": "design_only",
+  "status": "FROZEN_DESIGN_PENDING_SOURCE_INPUT_AND_EXECUTION_LOCKS",
+  "decision_authority": "Root approved design choices and technical review flags in the current authorized experiment task",
+  "new_outcomes_used_to_select_design": false,
+  "outcome_files_read_by_this_script": false,
+  "sha256": {
+    "PROTOCOL.md": "78d4255239b6cd5e13bcc597fd6092b34fbedea3dcb9b32629126dbb2f7dc510",
+    "analysis_protocol.json": "0a17789df6d2704972f436151804d339f522ba8cfff81ea1b449971fb2d42691",
+    "convergence_selection.json": "1d654132693c00fc152383f65e454d57f53abb98557a02261ea1a799e0f6633a",
+    "build_protocol_manifest.py": "624950b17566b9de6a53b536740ac4c01cc0b1ff2bd54140de01e6086a294ce3"
+  },
+  "remaining_locks": [
+    "source release/linkage and full ordered input manifest",
+    "final assigned list and explicit case_index mapping",
+    "new external preprocessing/runner independent code review",
+    "production runner/config and input-source checksums",
+    "old-development convergence diagnostic and any prospective target-sampling amendment"
+  ],
+  "independence_claim": "not asserted until source/linkage/overlap evidence supports it",
+  "note": "This receipt freezes planned interpretation, estimands, intervals, seeds, target/corruption policy, candidate selection and ten old-development convergence cases. It does not certify completed experiments or human manuscript approval."
+}
