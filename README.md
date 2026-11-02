@@ -6,10 +6,6 @@ An exploratory study of **five-vertebra 2D–3D registration** under synthetic b
 
 ## Registration models
 
-![Four model schematics showing a single global transform, independent vertebral transforms, a fixed intervertebral prior, and an adaptive intervertebral prior](docs/figures/registration_models.png)
-
-*Model structure, adapted from manuscript Fig. 1. The anatomical surface is CT-derived; links illustrate model relationships rather than measured motion or a registration result.*
-
 | Model | Representation | Intervertebral prior |
 |:--|:--|:--|
 | **A · Global rigid** | One rigid transform for L1–L5 | No relative motion between vertebrae |
